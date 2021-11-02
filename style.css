@@ -37,6 +37,7 @@ label{
     display: inline-block;
     margin-bottom: 2px;
 }
+
 /* -------------------- HEADER -------------------------------------- */
 header{
     text-align: center;
@@ -88,6 +89,10 @@ legend{
 .newsletter p{
     font-size: .875rem;
     margin-bottom: 10px;
+}
+input[type="checkbox"]:checked + label,  input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: black;
 }
 .newsletter label{
     margin: 5px 0 5px 5px;
