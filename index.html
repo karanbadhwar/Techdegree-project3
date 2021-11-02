@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>THE CODE REVIEW</h1>
+        <article class="banner">
+            <h3>Signup for our newsletter</h3>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </article>
+        <hr class="thick">
+        <hr class="slim">
+    </header>
+    <main>
+
+        <form action="" method="get">
+            <fieldset class="contact">
+                <legend>Contact Information</legend>
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="user-name" placeholder="Required" required><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="user-email" placeholder="Required" required><br>
+
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="user-phone"><br>
+
+                <label for="address">Street Address</label><br>
+                <input type="text" id="address" name="user-address"><br>
+
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="user-city"><br>
+
+                <label for="state">State</label><br>
+               <select id="state" name="user-state">
+                   <option value="" disabled selected>Choose State</option>
+                   <option value="ontario">Ontario</option>
+                   <option value="british columbia">British Columbia</option>
+                   <option value="calgary">Calgary</option>
+                   <option value="Manitoba">Manitoba</option>
+               </select><br>
+
+                <label for="zip">Zip Code</label><br>
+                <input type="text" id="zip" name="user-zip">
+            </fieldset>
+            <hr class="thick" id="in-form">
+            <fieldset class="newsletter">
+                <legend>Newsletter</legend>
+                <p>Select the newsletter you would like to recieve</p>
+                <input type="checkbox" id="html-news" name="user-newsletter" value="html-news">
+                <label for="html-news">HTML News</label><br>
+                <input type="checkbox" id="css-news" name="user-newsletter" value="css-news">
+                <label for="css-news">CSS News</label><br>
+                <input type="checkbox" id="javascript-news" name="user-newsletter" value="javascript-news">
+                <label for="javascript-news">JavaScript News</label><br>
+
+                <label class="format">Newsletter format</label><br>
+            
+                <input type="radio" id="html-format" name="user-format">
+                <label for="html-format">HTML</label><br>
+
+                <input type="radio" id="plain-text" name="user-format">
+                <label for="plain-text">Plain Text</label><br>
+
+                <label for="feedback" class="feedback">Other topics you'd like to hear about</label>
+                <textarea id="feedback" name="user-feedback" rows="5"></textarea><br>
+
+                <button type="submit">Sign Up</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright The Code Review</p>
+    </footer>
+</body>
+</html>
