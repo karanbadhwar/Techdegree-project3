@@ -159,7 +159,7 @@ footer p{
         width: 30%;
     }
    form,footer,hr{ 
-       max-width: 70%;
+       max-width: 60%;
        margin: 0 auto;
    }
    #in-form{
