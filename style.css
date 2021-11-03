@@ -147,6 +147,7 @@ footer p{
     }
     .contact label{
         width: 30%;
+        padding-top: 5px;
     }
     label, .newsletter p{
         color: black;
