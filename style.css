@@ -56,6 +56,9 @@ header h1{
     padding: .5rem;
     margin-bottom: 1rem;
 }
+.contact label{
+    display: block;
+}
 
 /* --------------------- FORM ---------------------- */
 input[type="text"], input[type="email"], input[type="tel"], select{
@@ -90,6 +93,7 @@ option{
 }
 legend{
     padding-top: 15px;
+    padding-left: 0;
 } 
 .newsletter p{
     font-size: .875rem;
@@ -113,6 +117,7 @@ textarea{
 }
 .newsletter .feedback{
     margin-top: 15px;
+    margin-left: 0;
 }
 
 button{
@@ -137,8 +142,23 @@ footer p{
 
 /* ------------- MEDIA QUERY --------------*/
 @media screen and (min-width: 768px){
+    .contact label,input,select{
+        display: inline-block;
+    }
+    .contact label{
+        width: 30%;
+    }
+    label, .newsletter p{
+        color: black;
+    }
+    .contact input,select{
+        width: 68%;
+    }
+    .contact input[id="zip"]{
+        width: 30%;
+    }
    form,footer,hr{ 
-       max-width: 60%;
+       max-width: 70%;
        margin: 0 auto;
    }
    #in-form{
