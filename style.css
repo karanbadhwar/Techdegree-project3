@@ -133,7 +133,7 @@ button{
     cursor: pointer;
 }
 button:active{
-
+    transform: scale(.99);
 }
 
 /* ---------------- FOOTER -------------- */
