@@ -75,7 +75,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
 }
 
 input[id^="zip"]{
-    width: 44%;
+    width: 50%;
 }
 option[value=""]{
     display: none;
@@ -160,7 +160,7 @@ footer p{
         width: 68%;
     }
     .contact input[id="zip"]{
-        width: 17%;
+        width: 25%;
     }
    form,footer,hr{ 
        max-width: 60%;
