@@ -77,11 +77,16 @@ input[id^="zip"]{
 option[value=""]{
     display: none;
 }
+
+option{
+    background-color: ghostwhite;
+}
 ::placeholder{
     float: right;
     opacity: .7;
     font-size: .9em;
     font-style: italic;
+    margin-right: 5px;
 }
 legend{
     padding-top: 15px;
@@ -137,7 +142,7 @@ footer p{
        margin: 0 auto;
    }
    #in-form{
-       max-width: 94.8%;
+       max-width: 95%;
        
    }
 }
