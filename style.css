@@ -69,13 +69,13 @@ input[type="text"], input[type="email"], input[type="tel"], select{
     border: 0;
     border-radius: .3em;
 }
-input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus,select:focus{
     border: 2px solid #25477B;
     box-shadow: inset 0 0 3px #6c6e71;
 }
 
 input[id^="zip"]{
-    width: 48%;
+    width: 25%;
 }
 option[value=""]{
     display: none;
@@ -85,7 +85,7 @@ option{
     background-color: ghostwhite;
 }
 ::placeholder{
-    float: right;
+    text-align: right;
     opacity: .7;
     font-size: .9em;
     font-style: italic;
@@ -156,7 +156,7 @@ footer p{
         width: 68%;
     }
     .contact input[id="zip"]{
-        width: 30%;
+        width: 34%;
     }
    form,footer,hr{ 
        max-width: 60%;
